@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "authentrics-demos"
+version = "1.1.0"
+description = "Demonstration notebooks for Authentrics.ai platform"
+readme = "README.md"
+authors = [
+    {name = "Authentrics.ai", email = "info@authentrics.ai"}
+]
+requires-python = ">=3.8"
+
+# Core dependencies used across all demos
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "requests",
+    "tqdm",
+    "ipywidgets",
+    "authentrics-client @ git+https://github.com/Authentrics-ai/authentrics-client.git@v1.1.0",
+]
+
+[project.optional-dependencies]
+# All dependencies needed to run the demos
+all = [
+    "jupyter",
+    "notebook",
+]
+
+[project.urls]
+Homepage = "https://authentrics.ai"
+Repository = "https://github.com/Authentrics-ai/demos"
+
+# Tell setuptools not to package the demo directories
+[tool.setuptools]
+packages = []
+
+# Demo versions
+[tool.authentrics-demos]
+demos = [
+    {name = "MedicalChatbot", version = "1.1.0"},
+    {name = "MilitaryAircraft", version = "1.1.0"}
+]
