@@ -6,6 +6,7 @@ To run the demos in Google Colab, click the link below for the demo you want to 
 
 - [Healthcare Chatbot Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MedicalChatbot/HealthcareChatbotDemo.ipynb)
 - [Military Aircraft Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MilitaryAircraft/MilitaryAircraftDemo.ipynb)
+- [Mnist Onnx Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MnistOnnxDemo/MnistOnnxDemo.ipynb)
 
 ## Quick Setup
 
