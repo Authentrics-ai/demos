@@ -19,7 +19,6 @@ dependencies = [
     "tqdm",
     "ipywidgets",
     "authentrics-client @ git+https://github.com/Authentrics-ai/authentrics-client.git@v2.1.0",
-    "google-cloud-storage",
 ]
 
 [project.optional-dependencies]
