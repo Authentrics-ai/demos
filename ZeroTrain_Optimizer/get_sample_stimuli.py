@@ -26,7 +26,7 @@ def main():
         for idx in SAMPLE_INDICES
     ]
 
-    for i, p in zip(SAMPLE_INDICES, prompts):
+    for i, p in enumerate(prompts):
         with open(f"ZeroTrain_Optimizer/prompt_{i:02d}.json", "w") as f:
             json.dump(p, f)
 
