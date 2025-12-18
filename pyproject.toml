@@ -18,7 +18,7 @@ dependencies = [
     "requests",
     "tqdm",
     "ipywidgets",
-    "authentrics-client @ git+https://github.com/Authentrics-ai/authentrics-client.git@v2.1.0",
+    "authentrics-client @ git+https://github.com/Authentrics-ai/authentrics-client.git@v2.4.0",
 ]
 
 [project.optional-dependencies]
@@ -36,8 +36,8 @@ packages = []
 # Demo versions
 [tool.authentrics-demos]
 demos = [
-    { name = "MedicalChatbot", version = "1.2.2" },
-    { name = "MilitaryAircraft", version = "1.2.1" },
-    { name = "MnistOnnx", version = "1.0.1" },
+    {name = "MedicalChatbot", version = "1.2.3"},
+    {name = "MilitaryAircraft", version = "1.2.1"},
+    {name = "MnistOnnx", version = "1.0.1"},
     { name = "ZeroTrainOptimizer", version = "1.0.0.dev0" },
 ]
