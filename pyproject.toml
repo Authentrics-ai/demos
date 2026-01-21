@@ -39,6 +39,6 @@ demos = [
     {name = "MedicalChatbot", version = "1.2.4"},
     {name = "MilitaryAircraft", version = "1.2.2"},
     {name = "MnistOnnx", version = "1.0.2"},
-    { name = "ZeroTrainOptimizer-HealthcareChatbot", version = "1.0.0.rc0" },
+    { name = "ZeroTrainOptimizer-MedicalChatbot", version = "1.0.0.rc0" },
     { name = "ZeroTrainOptimizer-MilitaryAircraft", version = "1.0.0.rc0" },
 ]
