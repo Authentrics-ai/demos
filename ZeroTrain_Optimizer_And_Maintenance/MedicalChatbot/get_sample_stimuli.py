@@ -11,14 +11,14 @@ def main():
         "lextale/FirstAidInstructionsDataset",
         "data/icliniqDataset-00000-of-00001.parquet",
         repo_type="dataset",
-        local_dir="ZeroTrain_Optimizer/",
+        local_dir="ZeroTrain_Optimizer_And_Maintenance/MedicalChatbot/",
     )
 
     table = pq.read_table(filename)
 
     answers = [str(table["answer"][idx]) for idx in SAMPLE_INDICES]
 
-    with open("ZeroTrain_Optimizer/expected_output.txt", "w") as f:
+    with open("ZeroTrain_Optimizer_And_Maintenance/MedicalChatbot/expected_output.txt", "w") as f:
         f.write("\n".join(answers))
 
     prompts = [
@@ -27,7 +27,7 @@ def main():
     ]
 
     for i, p in enumerate(prompts):
-        with open(f"ZeroTrain_Optimizer/prompt_{i:02d}.json", "w") as f:
+        with open(f"ZeroTrain_Optimizer_And_Maintenance/MedicalChatbot/prompt_{i:02d}.json", "w") as f:
             json.dump(p, f)
 
 
