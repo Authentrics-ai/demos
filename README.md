@@ -7,7 +7,8 @@ To run the demos in Google Colab, click the link below for the demo you want to 
 - [Healthcare Chatbot Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MedicalChatbot/HealthcareChatbotDemo.ipynb)
 - [Military Aircraft Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MilitaryAircraft/MilitaryAircraftDemo.ipynb)
 - [Mnist Onnx Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/MnistOnnxDemo/MnistOnnxDemo.ipynb)
-- [Zero Train Optimizer Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/ZeroTrain_Optimizer/ZeroTrainOptimizerDemo.ipynb)
+- [Zero Train Optimizer & Maintenance Medical Chatbot Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/ZeroTrain_Optimizer_And_Maintenance/MedicalChatbot/ZeroTrainOptimizerMedicalChatbotDemo.ipynb)
+- [Zero Train Optimizer & Maintenance Military Aircraft Demo](https://colab.research.google.com/github/Authentrics-ai/demos/blob/main/ZeroTrain_Optimizer_And_Maintenance/MilitaryAircraft/ZeroTrainOptimizerMilitaryAircraftDemo.ipynb)
 
 ## Quick Setup
 
