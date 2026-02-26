@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "authentrics-demos"
-version = "1.3.0"
+version = "1.3.1"
 description = "Demonstration notebooks for Authentrics.ai platform"
 readme = "README.md"
 authors = [{ name = "Authentrics.ai", email = "info@authentrics.ai" }]
@@ -36,9 +36,9 @@ packages = []
 # Demo versions
 [tool.authentrics-demos]
 demos = [
-    {name = "MedicalChatbot", version = "1.2.5"},
+    {name = "MedicalChatbot", version = "1.2.6"},
     {name = "MilitaryAircraft", version = "1.2.3"},
     {name = "MnistOnnx", version = "1.0.3"},
-    { name = "ZeroTrainOptimizer-MedicalChatbot", version = "1.0.0" },
+    { name = "ZeroTrainOptimizer-MedicalChatbot", version = "1.0.1" },
     { name = "ZeroTrainOptimizer-MilitaryAircraft", version = "1.0.0" },
 ]
